@@ -48,7 +48,7 @@ body {
       display: none;
 }
 
-#dice--container {
+#dice {
       position: absolute;
       bottom: -36px;
       background-color: hsl(150, 100%, 66%);
@@ -59,12 +59,12 @@ body {
       transition: 0.5s;
 }
 
-#dice--container:hover {
+#dice:hover {
       cursor: pointer;
       box-shadow: 0 0 36px hsl(150, 100%, 66%);
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 426px) {
       #pattern--divider {
             display: none;
       }
